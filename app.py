@@ -16,7 +16,6 @@ prompt=ChatPromptTemplate.from_messages(
         ("system","You are a helpful assistant. Please resposne to the user request only based on the given context"),
         ("user","Question:{question}\nContext:{context}")
 
-
     ]
 
 
